@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view opaque="NO" contentMode="scaleToFill" id="NS2-XH-tuD" customClass="CustomErrorView" customModule="GithubApiSample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lCh-oG-6Ma">
+                    <rect key="frame" x="57" y="373" width="300" height="150"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="cXS-hI-zxe">
+                            <rect key="frame" x="10" y="30" width="280" height="90"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An error has occurred" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Afh-Pq-tJ2">
+                                    <rect key="frame" x="65" y="0.0" width="150" height="18"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UCM-OV-26q" customClass="CardView" customModule="GithubApiSample" customModuleProvider="target">
+                                    <rect key="frame" x="90" y="38" width="100" height="52"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RETRY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TxB-OD-Uj8">
+                                            <rect key="frame" x="25.5" y="16.5" width="49.5" height="19.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.54065710310000004" green="0.72609394790000004" blue="0.89413994549999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <constraints>
+                                        <constraint firstItem="TxB-OD-Uj8" firstAttribute="centerX" secondItem="UCM-OV-26q" secondAttribute="centerX" id="5Zb-tf-Jqd"/>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="Saz-Fw-vyi"/>
+                                        <constraint firstAttribute="height" constant="52" id="hDM-8g-w2h"/>
+                                        <constraint firstItem="TxB-OD-Uj8" firstAttribute="centerY" secondItem="UCM-OV-26q" secondAttribute="centerY" id="lik-RZ-z1C"/>
+                                        <constraint firstAttribute="width" constant="100" id="mTm-jJ-uQD"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="shadowEnabled" value="NO"/>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="topRightRadiusEnabled" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="6"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="8AW-sX-l73"/>
+                        <constraint firstAttribute="trailing" secondItem="cXS-hI-zxe" secondAttribute="trailing" constant="10" id="OEm-9j-BxP"/>
+                        <constraint firstItem="cXS-hI-zxe" firstAttribute="centerY" secondItem="lCh-oG-6Ma" secondAttribute="centerY" id="TJA-4Q-B8s"/>
+                        <constraint firstAttribute="height" constant="150" id="XV1-Xu-Aqd"/>
+                        <constraint firstItem="cXS-hI-zxe" firstAttribute="centerX" secondItem="lCh-oG-6Ma" secondAttribute="centerX" id="nIx-gT-98h"/>
+                        <constraint firstItem="cXS-hI-zxe" firstAttribute="leading" secondItem="lCh-oG-6Ma" secondAttribute="leading" constant="10" id="tLS-Ac-xvz"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="wHB-c4-2ts"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="lCh-oG-6Ma" firstAttribute="centerY" secondItem="NS2-XH-tuD" secondAttribute="centerY" id="D8g-Ya-17p"/>
+                <constraint firstItem="lCh-oG-6Ma" firstAttribute="centerX" secondItem="NS2-XH-tuD" secondAttribute="centerX" id="tTt-5D-Kdg"/>
+            </constraints>
+            <connections>
+                <outlet property="errorMessage" destination="Afh-Pq-tJ2" id="qoN-DK-pyk"/>
+                <outlet property="submitView" destination="UCM-OV-26q" id="UkQ-S2-qwt"/>
+            </connections>
+            <point key="canvasLocation" x="16.666666666666668" y="333.48214285714283"/>
+        </view>
+    </objects>
+</document>

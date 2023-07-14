@@ -16,6 +16,12 @@
 		041EDA722A615EE400A47621 /* GreatSportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EDA712A615EE400A47621 /* GreatSportTests.swift */; };
 		041EDA7C2A615EE400A47621 /* GreatSportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EDA7B2A615EE400A47621 /* GreatSportUITests.swift */; };
 		041EDA7E2A615EE400A47621 /* GreatSportUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EDA7D2A615EE400A47621 /* GreatSportUITestsLaunchTests.swift */; };
+		041EDA922A61A90700A47621 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EDA912A61A90700A47621 /* BaseViewController.swift */; };
+		041EDA962A61AA2300A47621 /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EDA952A61AA2300A47621 /* LoadingOverlay.swift */; };
+		041EDA992A61AB3D00A47621 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EDA982A61AB3D00A47621 /* UIView.swift */; };
+		041EDA9D2A61AC2500A47621 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EDA9C2A61AC2500A47621 /* CardView.swift */; };
+		041EDAA02A61AC2F00A47621 /* CustomErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EDA9E2A61AC2F00A47621 /* CustomErrorView.swift */; };
+		041EDAA12A61AC2F00A47621 /* CustomErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041EDA9F2A61AC2F00A47621 /* CustomErrorView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		041EDA772A615EE400A47621 /* GreatSportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreatSportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041EDA7B2A615EE400A47621 /* GreatSportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatSportUITests.swift; sourceTree = "<group>"; };
 		041EDA7D2A615EE400A47621 /* GreatSportUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatSportUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		041EDA912A61A90700A47621 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		041EDA952A61AA2300A47621 /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
+		041EDA982A61AB3D00A47621 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		041EDA9C2A61AC2500A47621 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		041EDA9E2A61AC2F00A47621 /* CustomErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomErrorView.swift; sourceTree = "<group>"; };
+		041EDA9F2A61AC2F00A47621 /* CustomErrorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomErrorView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,9 @@
 		041EDA592A615EE100A47621 /* GreatSport */ = {
 			isa = PBXGroup;
 			children = (
+				041EDA8A2A619B2200A47621 /* Presentation */,
+				041EDA8B2A61A61100A47621 /* Domain */,
+				041EDA8C2A61A62500A47621 /* Data */,
 				041EDA5A2A615EE100A47621 /* AppDelegate.swift */,
 				041EDA5C2A615EE100A47621 /* SceneDelegate.swift */,
 				041EDA5E2A615EE100A47621 /* ViewController.swift */,
@@ -125,6 +140,105 @@
 				041EDA7D2A615EE400A47621 /* GreatSportUITestsLaunchTests.swift */,
 			);
 			path = GreatSportUITests;
+			sourceTree = "<group>";
+		};
+		041EDA8A2A619B2200A47621 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				041EDA932A61A93600A47621 /* Utils */,
+				041EDA902A61A8D500A47621 /* Base */,
+				041EDA8D2A61A6BB00A47621 /* Players */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		041EDA8B2A61A61100A47621 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		041EDA8C2A61A62500A47621 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		041EDA8D2A61A6BB00A47621 /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				041EDA8E2A61A6C700A47621 /* Views */,
+				041EDA8F2A61A6D200A47621 /* ViewModel */,
+			);
+			path = Players;
+			sourceTree = "<group>";
+		};
+		041EDA8E2A61A6C700A47621 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		041EDA8F2A61A6D200A47621 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		041EDA902A61A8D500A47621 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				041EDA912A61A90700A47621 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		041EDA932A61A93600A47621 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				041EDA9A2A61ABB900A47621 /* CustomViews */,
+				041EDA972A61AB1A00A47621 /* Extensions */,
+				041EDA942A61A95500A47621 /* Loading */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		041EDA942A61A95500A47621 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				041EDA952A61AA2300A47621 /* LoadingOverlay.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		041EDA972A61AB1A00A47621 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				041EDA982A61AB3D00A47621 /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		041EDA9A2A61ABB900A47621 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				041EDA9C2A61AC2500A47621 /* CardView.swift */,
+				041EDA9B2A61ABCA00A47621 /* Error View */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		041EDA9B2A61ABCA00A47621 /* Error View */ = {
+			isa = PBXGroup;
+			children = (
+				041EDA9E2A61AC2F00A47621 /* CustomErrorView.swift */,
+				041EDA9F2A61AC2F00A47621 /* CustomErrorView.xib */,
+			);
+			path = "Error View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +345,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041EDAA12A61AC2F00A47621 /* CustomErrorView.xib in Resources */,
 				041EDA672A615EE300A47621 /* LaunchScreen.storyboard in Resources */,
 				041EDA642A615EE300A47621 /* Assets.xcassets in Resources */,
 				041EDA622A615EE100A47621 /* Main.storyboard in Resources */,
@@ -258,8 +373,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041EDAA02A61AC2F00A47621 /* CustomErrorView.swift in Sources */,
+				041EDA9D2A61AC2500A47621 /* CardView.swift in Sources */,
 				041EDA5F2A615EE100A47621 /* ViewController.swift in Sources */,
+				041EDA922A61A90700A47621 /* BaseViewController.swift in Sources */,
 				041EDA5B2A615EE100A47621 /* AppDelegate.swift in Sources */,
+				041EDA962A61AA2300A47621 /* LoadingOverlay.swift in Sources */,
+				041EDA992A61AB3D00A47621 /* UIView.swift in Sources */,
 				041EDA5D2A615EE100A47621 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
