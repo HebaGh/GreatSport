@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2B9D1ACA-1E67-4B05-A966-BBB8C62C7E42"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7CC90DC-9B3E-4443-8C0C-BA3CAF23D9D2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GreatSport/Data/Network/Api/RemoteDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "sendRequest(_:param:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A7CC90DC-9B3E-4443-8C0C-BA3CAF23D9D2 - 2e40017273439661"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;GreatSport.BaseResponse&lt;&#x3c4;_0_0&gt;, Alamofire.AFError&gt;) -&gt; () in GreatSport.RemoteDataSource.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: Foundation.URLRequest, param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (GreatSport.Result&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GreatSport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/GreatSport/GreatSport/Data/Network/Api/RemoteDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "978">
+               </Location>
+               <Location
+                  uuid = "A7CC90DC-9B3E-4443-8C0C-BA3CAF23D9D2 - 2e40017273439661"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;GreatSport.BaseResponse&lt;&#x3c4;_0_0&gt;, Alamofire.AFError&gt;) -&gt; () in GreatSport.RemoteDataSource.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: Foundation.URLRequest, param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (GreatSport.Result&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GreatSport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/GreatSport/GreatSport/Data/Network/Api/RemoteDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "975">
+               </Location>
+               <Location
+                  uuid = "A7CC90DC-9B3E-4443-8C0C-BA3CAF23D9D2 - 2e40017273439661"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;GreatSport.BaseResponse&lt;&#x3c4;_0_0&gt;, Alamofire.AFError&gt;) -&gt; () in GreatSport.RemoteDataSource.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: Foundation.URLRequest, param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (GreatSport.Result&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GreatSport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/GreatSport/GreatSport/Data/Network/Api/RemoteDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "995">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E618D084-C8C6-4F15-B1F9-0DEFF65E3071"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GreatSport/Data/Network/Api/RemoteDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "sendRequest(_:param:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E618D084-C8C6-4F15-B1F9-0DEFF65E3071 - 2e40017273439934"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;GreatSport.BaseResponse&lt;&#x3c4;_0_0&gt;, Alamofire.AFError&gt;) -&gt; () in GreatSport.RemoteDataSource.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: Foundation.URLRequest, param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (GreatSport.Result&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GreatSport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/GreatSport/GreatSport/Data/Network/Api/RemoteDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "2630">
+               </Location>
+               <Location
+                  uuid = "E618D084-C8C6-4F15-B1F9-0DEFF65E3071 - 2e40017273439934"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;GreatSport.BaseResponse&lt;&#x3c4;_0_0&gt;, Alamofire.AFError&gt;) -&gt; () in GreatSport.RemoteDataSource.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: Foundation.URLRequest, param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (GreatSport.Result&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GreatSport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/GreatSport/GreatSport/Data/Network/Api/RemoteDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "2627">
+               </Location>
+               <Location
+                  uuid = "E618D084-C8C6-4F15-B1F9-0DEFF65E3071 - 2e40017273439934"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;GreatSport.BaseResponse&lt;&#x3c4;_0_0&gt;, Alamofire.AFError&gt;) -&gt; () in GreatSport.RemoteDataSource.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: Foundation.URLRequest, param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (GreatSport.Result&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GreatSport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/GreatSport/GreatSport/Data/Network/Api/RemoteDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "2647">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51F4AB7C-3EA6-43C3-9DF9-DFCDD5AB7540"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GreatSport/Data/Network/Api/RemoteDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "sendRequest(_:param:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "51F4AB7C-3EA6-43C3-9DF9-DFCDD5AB7540 - 2e40017273439b81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;GreatSport.BaseResponse&lt;&#x3c4;_0_0&gt;, Alamofire.AFError&gt;) -&gt; () in GreatSport.RemoteDataSource.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: Foundation.URLRequest, param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (GreatSport.Result&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GreatSport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/GreatSport/GreatSport/Data/Network/Api/RemoteDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "3426">
+               </Location>
+               <Location
+                  uuid = "51F4AB7C-3EA6-43C3-9DF9-DFCDD5AB7540 - 2e40017273439b81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;GreatSport.BaseResponse&lt;&#x3c4;_0_0&gt;, Alamofire.AFError&gt;) -&gt; () in GreatSport.RemoteDataSource.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: Foundation.URLRequest, param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (GreatSport.Result&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GreatSport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/GreatSport/GreatSport/Data/Network/Api/RemoteDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "3423">
+               </Location>
+               <Location
+                  uuid = "51F4AB7C-3EA6-43C3-9DF9-DFCDD5AB7540 - 2e40017273439b81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;GreatSport.BaseResponse&lt;&#x3c4;_0_0&gt;, Alamofire.AFError&gt;) -&gt; () in GreatSport.RemoteDataSource.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: Foundation.URLRequest, param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (GreatSport.Result&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GreatSport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/GreatSport/GreatSport/Data/Network/Api/RemoteDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "3443">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8B3C2C8-D26C-4E55-811A-623263F8685F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GreatSport/Data/Network/Api/RemoteDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "sendRequest(_:param:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A8B3C2C8-D26C-4E55-811A-623263F8685F - 2e40017273439b66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;GreatSport.BaseResponse&lt;&#x3c4;_0_0&gt;, Alamofire.AFError&gt;) -&gt; () in GreatSport.RemoteDataSource.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: Foundation.URLRequest, param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (GreatSport.Result&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GreatSport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/GreatSport/GreatSport/Data/Network/Api/RemoteDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "3723">
+               </Location>
+               <Location
+                  uuid = "A8B3C2C8-D26C-4E55-811A-623263F8685F - 2e40017273439b66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;GreatSport.BaseResponse&lt;&#x3c4;_0_0&gt;, Alamofire.AFError&gt;) -&gt; () in GreatSport.RemoteDataSource.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: Foundation.URLRequest, param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (GreatSport.Result&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GreatSport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/GreatSport/GreatSport/Data/Network/Api/RemoteDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "3720">
+               </Location>
+               <Location
+                  uuid = "A8B3C2C8-D26C-4E55-811A-623263F8685F - 2e40017273439b66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;GreatSport.BaseResponse&lt;&#x3c4;_0_0&gt;, Alamofire.AFError&gt;) -&gt; () in GreatSport.RemoteDataSource.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: Foundation.URLRequest, param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (GreatSport.Result&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GreatSport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/GreatSport/GreatSport/Data/Network/Api/RemoteDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "3740">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8744F4F1-03BF-4867-AF2D-B0C25436D28E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GreatSport/Presentation/Players/Views/PlayersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "fetchMostPopularArticles()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8744F4F1-03BF-4867-AF2D-B0C25436D28E - c19bd18908fcbc99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GreatSport.PlayersViewController.fetchMostPopularArticles() -&gt; ()"
+                  moduleName = "GreatSport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/GreatSport/GreatSport/Presentation/Players/Views/PlayersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "223">
+               </Location>
+               <Location
+                  uuid = "8744F4F1-03BF-4867-AF2D-B0C25436D28E - b01eb35234e74ae5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (GreatSport.Result&lt;Swift.Array&lt;GreatSport.Player&gt;&gt;) -&gt; () in GreatSport.PlayersViewController.fetchMostPopularArticles() -&gt; ()"
+                  moduleName = "GreatSport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/GreatSport/GreatSport/Presentation/Players/Views/PlayersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "210">
+               </Location>
+               <Location
+                  uuid = "8744F4F1-03BF-4867-AF2D-B0C25436D28E - c19bd18908fcb977"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GreatSport.PlayersViewController.fetchMostPopularArticles() -&gt; ()"
+                  moduleName = "GreatSport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/GreatSport/GreatSport/Presentation/Players/Views/PlayersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "223">
+               </Location>
+               <Location
+                  uuid = "8744F4F1-03BF-4867-AF2D-B0C25436D28E - b01eb35234e74c33"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (GreatSport.Result&lt;Swift.Array&lt;GreatSport.Player&gt;&gt;) -&gt; () in GreatSport.PlayersViewController.fetchMostPopularArticles() -&gt; ()"
+                  moduleName = "GreatSport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/GreatSport/GreatSport/Presentation/Players/Views/PlayersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "210">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "053E7BB2-2EC5-44A5-82F4-11ED16CCA85B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GreatSport/Data/Network/Api/RemoteDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "sendRequest(_:param:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "053E7BB2-2EC5-44A5-82F4-11ED16CCA85B - 2e400172734396ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;GreatSport.BaseResponse&lt;&#x3c4;_0_0&gt;, Alamofire.AFError&gt;) -&gt; () in GreatSport.RemoteDataSource.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: Foundation.URLRequest, param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (GreatSport.Result&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GreatSport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/GreatSport/GreatSport/Data/Network/Api/RemoteDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "667">
+               </Location>
+               <Location
+                  uuid = "053E7BB2-2EC5-44A5-82F4-11ED16CCA85B - 2e400172734396ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;GreatSport.BaseResponse&lt;&#x3c4;_0_0&gt;, Alamofire.AFError&gt;) -&gt; () in GreatSport.RemoteDataSource.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: Foundation.URLRequest, param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (GreatSport.Result&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GreatSport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/GreatSport/GreatSport/Data/Network/Api/RemoteDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "687">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC24E64D-4007-4323-A35C-4E8712E1DA7F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GreatSport/Presentation/Players/Views/PlayersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "fetchMostPopularArticles()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CC24E64D-4007-4323-A35C-4E8712E1DA7F - b01eb35234e74baf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (GreatSport.Result&lt;Swift.Array&lt;GreatSport.Player&gt;&gt;) -&gt; () in GreatSport.PlayersViewController.fetchMostPopularArticles() -&gt; ()"
+                  moduleName = "GreatSport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/GreatSport/GreatSport/Presentation/Players/Views/PlayersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "824">
+               </Location>
+               <Location
+                  uuid = "CC24E64D-4007-4323-A35C-4E8712E1DA7F - b01eb35234e74baf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (GreatSport.Result&lt;Swift.Array&lt;GreatSport.Player&gt;&gt;) -&gt; () in GreatSport.PlayersViewController.fetchMostPopularArticles() -&gt; ()"
+                  moduleName = "GreatSport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/GreatSport/GreatSport/Presentation/Players/Views/PlayersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "821">
+               </Location>
+               <Location
+                  uuid = "CC24E64D-4007-4323-A35C-4E8712E1DA7F - b01eb35234e74ec5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (GreatSport.Result&lt;Swift.Array&lt;GreatSport.Player&gt;&gt;) -&gt; () in GreatSport.PlayersViewController.fetchMostPopularArticles() -&gt; ()"
+                  moduleName = "GreatSport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/GreatSport/GreatSport/Presentation/Players/Views/PlayersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "824">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28570A74-BF07-48B3-925D-AF8F26A256BD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GreatSport/Presentation/Players/Views/PlayersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

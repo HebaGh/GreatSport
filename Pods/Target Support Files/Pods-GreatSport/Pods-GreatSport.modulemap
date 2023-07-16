@@ -1,0 +1,6 @@
+framework module Pods_GreatSport {
+  umbrella header "Pods-GreatSport-umbrella.h"
+
+  export *
+  module * { export * }
+}
