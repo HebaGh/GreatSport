@@ -27,8 +27,8 @@ class MainCoordinator: Coordinator {
     func pushPlayersDetails(player:Player)
     {
 
-        let vc = ArticleDetailsViewController(nibName: "ArticleDetailsViewController", bundle: nil)
-        vc.article = article
+        let vc = PlayersDetailsViewController(nibName: "PlayersDetailsViewController", bundle: nil)
+        vc.player = player
         self.navigationController.pushViewController(vc, animated: true)
     }
     

@@ -55,6 +55,7 @@
 		0436CC442A6325AE004A6977 /* HorizontalPlayerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0436CC422A6325AE004A6977 /* HorizontalPlayerTableViewCell.xib */; };
 		0436CC4A2A63E881004A6977 /* PlayersDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0436CC482A63E881004A6977 /* PlayersDetailsViewController.xib */; };
 		0436CC4B2A63E881004A6977 /* PlayersDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0436CC492A63E881004A6977 /* PlayersDetailsViewController.swift */; };
+		0436CC4E2A63F7C0004A6977 /* NumbersFormats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0436CC4D2A63F7C0004A6977 /* NumbersFormats.swift */; };
 		A28BA08B033DA0ACDD4EFD4C /* Pods_GreatSport_GreatSportUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8382CE976F7DA7DC917C62AA /* Pods_GreatSport_GreatSportUITests.framework */; };
 		E41E846F10320B7AD00C30D0 /* Pods_GreatSport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4AC45C39C4B2777838EE71 /* Pods_GreatSport.framework */; };
 		EEB501755D3B0B2F8BC9F889 /* Pods_GreatSportTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C680995C567B3C1A390247EB /* Pods_GreatSportTests.framework */; };
@@ -130,6 +131,7 @@
 		0436CC422A6325AE004A6977 /* HorizontalPlayerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HorizontalPlayerTableViewCell.xib; sourceTree = "<group>"; };
 		0436CC482A63E881004A6977 /* PlayersDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayersDetailsViewController.xib; sourceTree = "<group>"; };
 		0436CC492A63E881004A6977 /* PlayersDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersDetailsViewController.swift; sourceTree = "<group>"; };
+		0436CC4D2A63F7C0004A6977 /* NumbersFormats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersFormats.swift; sourceTree = "<group>"; };
 		3E4AC45C39C4B2777838EE71 /* Pods_GreatSport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreatSport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7569F87ED247395C94BD2A67 /* Pods-GreatSport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreatSport.debug.xcconfig"; path = "Target Support Files/Pods-GreatSport/Pods-GreatSport.debug.xcconfig"; sourceTree = "<group>"; };
 		7B40C4211DA5423103773C5E /* Pods-GreatSport-GreatSportUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreatSport-GreatSportUITests.debug.xcconfig"; path = "Target Support Files/Pods-GreatSport-GreatSportUITests/Pods-GreatSport-GreatSportUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -194,10 +196,10 @@
 		041EDA592A615EE100A47621 /* GreatSport */ = {
 			isa = PBXGroup;
 			children = (
-				0436CC1F2A621DF3004A6977 /* DI */,
 				041EDA8A2A619B2200A47621 /* Presentation */,
 				041EDA8B2A61A61100A47621 /* Domain */,
 				041EDA8C2A61A62500A47621 /* Data */,
+				0436CC1F2A621DF3004A6977 /* DI */,
 				041EDA5A2A615EE100A47621 /* AppDelegate.swift */,
 				041EDA5C2A615EE100A47621 /* SceneDelegate.swift */,
 				041EDA5E2A615EE100A47621 /* ViewController.swift */,
@@ -292,6 +294,7 @@
 		041EDA932A61A93600A47621 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				0436CC4C2A63F7A6004A6977 /* NumbersUtilities */,
 				0436CC262A621F17004A6977 /* Coordinators */,
 				041EDA9A2A61ABB900A47621 /* CustomViews */,
 				041EDA972A61AB1A00A47621 /* Extensions */,
@@ -499,6 +502,14 @@
 				0436CC482A63E881004A6977 /* PlayersDetailsViewController.xib */,
 			);
 			path = PlayersDetailsPage;
+			sourceTree = "<group>";
+		};
+		0436CC4C2A63F7A6004A6977 /* NumbersUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				0436CC4D2A63F7C0004A6977 /* NumbersFormats.swift */,
+			);
+			path = NumbersUtilities;
 			sourceTree = "<group>";
 		};
 		7BC82BF1488493A81ED224A8 /* Pods */ = {
@@ -802,6 +813,7 @@
 				0436CC182A62009F004A6977 /* FetchPlayersUseCase.swift in Sources */,
 				0436CC0F2A61E7E6004A6977 /* Reachability.swift in Sources */,
 				0436CBF42A61C1AD004A6977 /* PlayersViewModel.swift in Sources */,
+				0436CC4E2A63F7C0004A6977 /* NumbersFormats.swift in Sources */,
 				041EDA5D2A615EE100A47621 /* SceneDelegate.swift in Sources */,
 				041EDAA42A61AE0700A47621 /* PlayersViewController.swift in Sources */,
 				0436CC432A6325AE004A6977 /* HorizontalPlayerTableViewCell.swift in Sources */,

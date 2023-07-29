@@ -9,49 +9,45 @@ import UIKit
 
 class PlayersDetailsViewController: UIViewController {
     
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var KeywordsLabel: UILabel!
-    @IBOutlet weak var ArticleImage: UIImageView!
+    @IBOutlet weak var playerName: UILabel!
     
-    @IBOutlet weak var abstractLabel: UILabel!
-    var article: Article?
+    @IBOutlet weak var playerNumber: UILabel!
+  
+    @IBOutlet weak var playerMarketPrice: UILabel!
+    
+    @IBOutlet weak var playerAge: UILabel!
+    
+    @IBOutlet weak var playerPosition: UILabel!
+    
+    @IBOutlet weak var playerRating: UILabel!
+    
+    @IBOutlet weak var playerImage: UIImageView!
+    
+    var player: Player?
     override func viewDidLoad() {
         super.viewDidLoad()
         self.loadData()
     }
     
     func loadData(){
-        if let article = article{
-            abstractLabel.text = article.abstract
-            KeywordsLabel.text = article.adx_keywords
-            titleLabel.text = article.Title
-            if article.media.count > 0 {
-                let url = article.media[0].mediaMetadata[1].url
-                ArticleImage.kf.indicatorType = .activity
-                ArticleImage.kf.setImage(with: URL(string: url) )
+        if let player = player{
+            playerName.text = player.name
+            playerPosition.text = player.positionName
+            playerMarketPrice.text = NumbersFormats.formatNumber(player.marketValue) 
+            playerAge.text = player.age
+            playerRating.text = player.rating
+            playerNumber.text = player.shirtNumber
+            if let url = player.photo
+            {
+                playerImage.kf.indicatorType = .activity
+                
+                playerImage.kf.setImage(with: URL(string: url) )
+                
             }
         }
     }
     
-    @IBAction func openTheArticleAction(_ sender: Any) {
-        
-        if let url = URL(string: self.article?.url ?? "") {
-            UIApplication.shared.open(url, options: [:]) { success in
-                if success {
-                    print("URL opened successfully")
-                } else {
-                    print("Failed to open URL")
-                }
-            }
-        }
-        
-        
-    }
-    
-    @IBAction func backButton(_ sender: Any) {
-        MainCoordinator.shared?.pop()
-    }
-    
+  
     
 }
 
